@@ -28,21 +28,24 @@ Incoming process data is streamed, analyzed, and visualized in near real-time to
 ---
 
 ##  Repository Structure
-semicon-realtime-anomaly-detection/
+
+```
+semiconductor-realtime-anomaly-detection/
 ├── data/
-│ ├── raw/ # Raw sensor data (ignored in Git)
-│ └── processed/ # Cleaned / preprocessed data
+│   ├── raw/              # Raw sensor data (ignored in Git)
+│   └── processed/        # Cleaned / preprocessed data
 ├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_preprocessing.ipynb
-│ └── 03_modeling.ipynb
+│   ├── 01_eda.ipynb
+│   ├── 02_preprocessing.ipynb
+│   └── 03_modeling.ipynb
 ├── src/
-│ ├── data_loader.py
-│ ├── preprocess.py
-│ ├── train.py
-│ └── inference.py
-├── functions/ # Azure Functions code
-├── webapp/ # Streamlit or Flask dashboard
-├── docs/ # Architecture diagrams, reports
+│   ├── data_loader.py
+│   ├── preprocess.py
+│   ├── train.py
+│   └── inference.py
+├── functions/            # Azure Functions code
+├── webapp/               # Streamlit or Flask dashboard
+├── docs/                 # Architecture diagrams, reports
 ├── requirements.txt
 └── README.md
+```
