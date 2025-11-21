@@ -182,24 +182,24 @@ Real-Time Streaming · ML Prediction · Medallion Architecture · RAG Chatbot
 
 ## 11. 프로젝트 구조
 
-azure-semicon/
-├── README.md
-├── docs/
-│ ├── architecture.png
-│ ├── pipeline_overview.png
-│ └── presentation.pdf
-├── dataset/
-│ └── README.md
-├── src/
-│ ├── pipeline/
-│ ├── ml/
-│ ├── endpoint/
-│ ├── function_app/
-│ └── chatbot/
-├── demo/
-│ ├── teams_alert.mp4
-│ └── rag_demo.mp4
-└── requirements.txt
+-azure-semicon/
+-├── README.md
+-├── docs/
+-│ ├── architecture.png
+-│ ├── pipeline_overview.png
+-│ └── presentation.pdf
+-├── dataset/
+-│ └── README.md
+-├── src/
+-│ ├── pipeline/
+-│ ├── ml/
+-│ ├── endpoint/
+-│ ├── function_app/
+-│ └── chatbot/
+-├── demo/
+-│ ├── teams_alert.mp4
+-│ └── rag_demo.mp4
+-└── requirements.txt
 
 
 ---
